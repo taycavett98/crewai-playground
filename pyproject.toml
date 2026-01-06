@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "crewai>=0.5.0",
     "fastapi>=0.127.1",
+    "langchain>=0.1.0",
+    "langgraph>=0.0.24",
     "ollama>=0.6.1",
     "python-multipart>=0.0.20",
     "pyyaml>=6.0.3",
+    "streamlit>=1.50.0",
     "uvicorn>=0.39.0",
 ]
